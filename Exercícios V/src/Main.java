@@ -60,13 +60,26 @@ public class Main {
 		frames.add(frame3); 
 
 		Fila fila = new Fila();
+
+		// TESTE RETURN
+
+		// int id = fila.Fifo(frames);
 		
-	 	int id = fila.Fifo(frames);
+		// System.out.println(id);
+		System.out.println("***************************************************************************");
+		fila.Fifo(frames);
+		System.out.println("***************************************************************************");
+		fila.LFU(frames);
+		System.out.println("***************************************************************************");
+		fila.LRU(frames);
+		System.out.println("***************************************************************************");
+		fila.NRU(frames);
+		System.out.println("***************************************************************************");
 		
-		System.out.println(id);
+
 		
 		
-	 }
+	}
 	
 	
 	
